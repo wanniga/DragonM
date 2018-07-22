@@ -61,9 +61,9 @@ function sendText () {
   request({
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer {"Cs3mFnfFgDh1wtOlEwt9aIvEah7xfZ8UQteBVVe4G1b="}'
+      'Authorization': 'Vuv0pyl3B7ZbU2JyfkgcI8LCFKxOTueYe0GFdf1fcAenLHWtvBogZ6cnyFzfIcKHJmm/Tzyyv4wF0Pp1B9PqoFp4dB1m3/C5reF9Ob6N7vnemVFdWufCl4oJM265DIalYeDgNje19LW1T/OhJgtS0AdB04t89/1O/w1cDnyilFU="}'
     },
-    url: 'https://notify-api.line.me/api/notify',
+    url: 'https://api.line.me/v2/bot/message/push',
     method: 'POST',
     body: data,
     json: true
@@ -88,9 +88,9 @@ function sendText15 () {
   request({
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer {"Cs3mFnfFgDh1wtOlEwt9aIvEah7xfZ8UQteBVVe4G1b="}'
+      'Authorization': 'Bearer {"Vuv0pyl3B7ZbU2JyfkgcI8LCFKxOTueYe0GFdf1fcAenLHWtvBogZ6cnyFzfIcKHJmm/Tzyyv4wF0Pp1B9PqoFp4dB1m3/C5reF9Ob6N7vnemVFdWufCl4oJM265DIalYeDgNje19LW1T/OhJgtS0AdB04t89/1O/w1cDnyilFU="}'
     },
-    url: 'https://notify-api.line.me/api/notify',
+    url: 'https://api.line.me/v2/bot/message/push',
     method: 'POST',
     body: data,
     json: true
