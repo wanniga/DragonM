@@ -63,7 +63,7 @@ function sendText () {
       'Content-Type': 'application/json',
       'Authorization': 'Bearer {"Cs3mFnfFgDh1wtOlEwt9aIvEah7xfZ8UQteBVVe4G1b="}'
     },
-    url: 'https://api.line.me/v2/bot/message/push',
+    url: 'https://notify-api.line.me/api/notify',
     method: 'POST',
     body: data,
     json: true
@@ -90,7 +90,7 @@ function sendText15 () {
       'Content-Type': 'application/json',
       'Authorization': 'Bearer {"Cs3mFnfFgDh1wtOlEwt9aIvEah7xfZ8UQteBVVe4G1b="}'
     },
-    url: 'https://api.line.me/v2/bot/message/push',
+    url: 'https://notify-api.line.me/api/notify',
     method: 'POST',
     body: data,
     json: true
